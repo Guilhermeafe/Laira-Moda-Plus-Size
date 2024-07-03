@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+h1{
+    color: #FFFFFF;
+    font-size: 200px;
+    font-family: "Kalam", sans-serif;
+    margin-top: -50px;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 80px;
+    margin-top: -90px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+p {
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+}
+
+
+
+
+
+.marioeluigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.caixamae {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    height: 100vh;
+    justify-content: space-around;
+    margin-top: -100px;
+}
+
+.caixaprincipal {
+    width:100%;
+    text-align: center;
+}
+
+.caixavideo {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+
+}
+
+.linkwhatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.header img {
+    height: 45px;
+    border-radius: 20px;
+         
+}
+
+.header a {color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.header a:hover {
+    color:#c51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+
+   
+
+    .caixamae {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .caixaprincipal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 100px;
+        margin-top: 10px;
+        
+    }
+
+    h2{
+        font-size: 50px;
+        margin-top: 5px;
+    }
+
+    .header {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+
+    .header a{
+        font-size: 18px;
+    }
+
+    .header img{ display: none;
+
+    }
+
+}
+
+
+
